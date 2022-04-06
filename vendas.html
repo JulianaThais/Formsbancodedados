@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <style>table{ background-color:  rgb(187, 184, 245); font-weight: bold; margin-top: 60px;}
+        
+        
+        </style>
+</head>
+<body>
+    <h1 align="center">Vendas</h1>
+    <form id="Vendas" name="Vendas" method="post" action="vendas.php" onsubmit="return validaCampo(); return false;">
+     <table width="625" border="20" align="center">
+     <tr>
+     <td width="69">Nome produto:</td>
+     <td width="546"><input name="produtos" type="text" id="produtos" size="70" maxlength="60" />
+    
+     </tr>
+     <tr>
+        <td>Data da venda :</td>
+        <td><input name="data" type="text" id="data" maxlength="70" />
+        
+        </tr>
+        <tr>
+            <td>Codigo do produto:</td>
+            <td><select name="coduni" id="coduni">
+            <option>Selecione...</option>
+            <option value="0001">0001-Batom</option>
+            <option value="0002">0002-Creme Hidratante</option>
+            <option value="0003">0003-Perfumes</option>
+            <option value="0004">0004-Maquiagens</option>
+            <option value="0005">0005-Anti sinais</option>
+            <option value="0008">0006-Cuidados com os cabelos</option>
+            <option value="0007">0007-Unhas</option>
+             </select>
+            
+            </tr>
+
+     <tr>
+        <td>Marca</td>
+        <td><input name="marca" type="text" id="marca" size="70" maxlength="70" />
+        
+        </tr>
+
+ 
+     <tr>
+     <td>Fornecedor:</td>
+     <td><select name="fornecedor" id="fornecedor">
+     <option>Selecione...</option>
+     <option value="AVON">AVON</option>
+     <option value="NATURA">NATURA</option>
+     <option value="BOTICARIO">O BOTICARIO</option>
+     <option value="EUDORA">EUDORA</option>
+     <option value="QUEM">QUEM DISSE BERENICE</option>
+   
+     </select>
+     
+     </tr>
+
+     <tr>
+        <td>Forma de pagamento :</td>
+        <td><select name="pagamento" id="pagamento">
+        <option>Selecione...</option>
+        <option value="Dinheiro">Dinheiro</option>
+        <option value="CartaoCredito">Cartão de Crédito</option>
+        <option value="CartaoDebito">Cartão de Débito</option>
+        <option value="PIX">PIX</option>
+        <option value="boleto">Boleto bancário</option>
+      
+        </select>
+        
+        </tr>
+     
+     <td><input  type="submit" value="Enviar"  />
+        
+        <td>
+         
+        
+    
+     </table>
+     
+    </form>
+   
+    </body>
+</html>
+

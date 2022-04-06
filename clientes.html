@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <style>table{ background-color:  rgb(187, 184, 245); font-weight: bold; margin-top: 60px;}
+        
+        
+        </style>
+</head>
+<body>
+    <h1 align="center">Clientes</h1>
+    <form id="clientes" name="clientes" method="post" action="clientes.php" onsubmit="return validaCampo(); return false;">
+     <table width="625" border="20" align="center">
+     <tr>
+     <td width="69">CPF:</td>
+     <td width="546"><input name="CPF" type="text" id="CPF" size="70" maxlength="60" />
+    
+     </tr>
+     <tr>
+        <td>Nome:</td>
+        <td><input name="nome" type="text" id="nome" maxlength="70" />
+        
+        </tr>
+     <tr>
+        <td>Data de Nascimento:</td>
+        <td><input name="nascimento" type="text" id="nascimento" maxlength="70" />
+        
+        </tr>
+        <tr>
+            <td>Nome da Mãe:</td>
+            <td><input name="mae" type="text" id="mae" maxlength="70" />
+            
+            </tr>
+            <tr>
+                <td>Endereço:</td>
+                <td><input name="endereço" type="text" id="endereço" maxlength="70" />
+                
+                </tr>
+    
+
+
+
+        <tr>
+            <td>Email:</td>
+            <td><input name="email" type="text" id="email" maxlength="70" />
+            
+            </tr>
+            
+
+     <tr>
+        <td>Telefone de Contato</td>
+        <td><input name="telefone" type="text" id="telefone" size="70" maxlength="70" />
+        
+        </tr>
+
+ 
+     <tr>
+     <td>Senha:</td>
+          
+     
+  
+     
+     <td><input type="password" name="senha"><br> 
+        
+        <td>
+         
+        </tr>
+     
+        <td><input  type="submit" value="Enviar"  />
+           
+           <td>
+    
+     </table>
+     
+    </form>
+   
+    </body>
+</html>

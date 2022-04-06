@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fornecedores</title>
+    <style>table{ background-color:  rgb(187, 184, 245); font-weight: bold; margin-top: 60px;}
+        
+        
+        </style>
+</head>
+<body>
+    <h1 align="center">Fornecedores</h1>
+    <form id="Fornecedores" name="Fornecedores" method="post" action="fornecedores.php" onsubmit="return validaCampo(); return false;">
+     <table width="625" border="20" align="center">
+     <tr>
+     <td width="69">Empresa:</td>
+     <td width="546"><input name="empresa" type="text" id="empresa" size="70" maxlength="60" />
+    
+     </tr>
+     <tr>
+        <td>CNPJ:</td>
+        <td><input name="cnpj" type="text" id="cnpj" size="70" maxlength="70" />
+        
+        </tr>
+
+
+        <tr>
+            <td>ENDERECO:</td>
+            <td><input name="endereço" type="text" id="endereço" size="70" maxlength="70" />
+            
+            </tr>
+     <tr>
+        <td>TELEFONE DE CONTATO:</td>
+        <td><input name="telefone" type="text" id="telefone" size="70" maxlength="70" />
+        
+        </tr>
+        <tr>
+            <td>EMAIL:</td>
+            <td><input name="EMAIL" type="text" id="EMAIL"size="70" maxlength="70" />
+            
+            </tr>
+
+ 
+   
+     <td><input  type="submit" value="Enviar"  />
+        
+        <td>
+         
+        
+    
+     </table>
+     
+    </form>
+   
+    </body>
+</html>
